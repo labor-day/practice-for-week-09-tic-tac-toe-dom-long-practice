@@ -1,0 +1,61 @@
+.square {
+  border: 2px solid black;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 75px;
+  width: 75px;
+
+  font-size: 20px;
+}
+
+.square:hover {
+  background-color: gainsboro;
+}
+
+embed {
+  height: 75px;
+  width: 75px;
+}
+
+#S00 {
+  border-top: none;
+  border-left: none;
+}
+
+#S01 {
+  border-top: none;
+}
+
+#S02 {
+  border-top: none;
+  border-right: none;
+}
+
+#S10 {
+  border-left: none;
+}
+
+#S11 {
+}
+
+#S12 {
+  border-right: none;
+}
+
+#S20 {
+  border-left: none;
+  border-bottom: none;
+}
+
+#S21 {
+  border-bottom: none;
+}
+
+#S22 {
+  border-right: none;
+  border-bottom: none;
+}
